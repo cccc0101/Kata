@@ -22,5 +22,3 @@ const sumLargestNumbers = function(data) {
 console.log(sumLargestNumbers([1, 10]));
 console.log(sumLargestNumbers([1, 2, 3]));
 console.log(sumLargestNumbers([10, 4, 34, 6, 92, 2]));
-console.log("make some changes")
-console.log("make some changes")
