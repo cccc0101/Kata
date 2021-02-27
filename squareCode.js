@@ -16,6 +16,7 @@ const squareCode = function(message) {
     newText += text.slice(i*a, (i+1)*a)+ "\n"
     }
   }
+  console.log("\nsquareCode: \n" + newText + "\n");
 
   // find # of rows:
   const rows = newText.match(/^/gm).length
@@ -37,13 +38,10 @@ const squareCode = function(message) {
     }
     k+=1
   }
+  console.log("Encrypted Code:")
   return finalText
 
 }
-
-
-
-
 
 console.log(squareCode("chill out"));
 console.log(squareCode("feed the dog"));
